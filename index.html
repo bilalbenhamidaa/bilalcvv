@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bilal Benhamida - Développeur Informatique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .profile {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #63b3ed;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .contact,
+    .skills,
+    .qualities {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 1.25rem;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .contact p,
+    .skills ul,
+    .qualities ul {
+      margin: 5px 0;
+      padding-left: 20px;
+    }
+
+    .skills ul,
+    .qualities ul {
+      list-style-type: disc;
+    }
+
+    .profile-header {
+      background-color: #e2e8f0;
+      color: #000000;
+      padding: 20px;
+      border-radius: 5px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      flex: 2;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content h3 {
+      font-size: 1.75rem;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #63b3ed;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .content p,
+    .job h4,
+    .job ul {
+      margin: 10px 0;
+      color: #333;
+      text-align: left;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .job ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 5px;
+    }
+
+    /* Media Query for Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .profile {
+        padding: 15px;
+      }
+
+      .content {
+        padding: 15px;
+      }
+
+      .profile img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .content h3 {
+        font-size: 1.5rem;
+        padding-bottom: 3px;
+      }
+
+      .content p,
+      .job h4,
+      .job ul {
+        max-width: 100%;
+      }
+
+      .profile-header h2 {
+        font-size: 1.5rem;
+      }
+
+      .profile-header p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .profile img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .content h3 {
+        font-size: 1.25rem;
+      }
+
+      .profile-header h2 {
+        font-size: 1.25rem;
+      }
+
+      .profile-header p {
+        font-size: 0.875rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="https://placehold.co/150x150" alt="Profile Picture" />
+
+      <div class="contact">
+        <h3 class="section-header">CONTACT</h3>
+        <p>📞 06 55 02 73 14</p>
+        <p>✉️ bilalbenhamida03@gmail.com</p>
+        <p>📍 Temara, Morocco</p>
+      </div>
+
+      <div class="skills">
+        <h3 class="section-header">COMPÉTENCES</h3>
+        <ul>
+          <li>Développement de sites web dynamiques avec Laravel</li>
+          <li>Création d'interfaces utilisateurs réactives avec React</li>
+          <li>Programmation back-end et gestion de systèmes avec Laravel</li>
+          <li>Gestion des bases de données SQL et NoSQL (MongoDB)</li>
+          <li>Application des méthodologies agiles (Scrum)</li>
+          <li>Transformation des besoins en produits fonctionnels</li>
+          <li>Création de diagrammes de classes et de cas d'utilisation</li>
+          <li>Développement de maquettes et prototypes</li>
+          <li>Analyse, conception, réalisation et hébergement de projets</li>
+        </ul>
+      </div>
+
+      <div class="qualities">
+        <h3 class="section-header">QUALITÉS</h3>
+        <ul>
+          <li>
+            <strong>Compétence Technique</strong> : Expertise en développement
+            web avec Laravel (back-end) et React (front-end).
+          </li>
+          <li>
+            <strong>Analyse et Compréhension</strong> : Aptitude à analyser
+            les besoins clients et à créer des solutions fonctionnelles.
+          </li>
+          <li>
+            <strong>Gestion de Projet</strong> : Expérience en gestion de
+            projets avec les méthodologies agiles (Scrum).
+          </li>
+          <li>
+            <strong>Conception et Innovation</strong> : Création de
+            diagrammes, maquettes et prototypes avec un focus sur
+            l'innovation.
+          </li>
+          <li>
+            <strong>Gestion de la Qualité</strong> : Assurance qualité tout au
+            long du développement pour des produits fiables et performants.
+          </li>
+          <li>
+            <strong>Adaptabilité</strong> : Flexibilité pour évoluer avec les
+            technologies et répondre aux besoins des clients.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="profile-header">
+        <h2>Bilal Benhamida</h2>
+        <p>Développeur Informatique</p>
+      </div>
+
+      <h3>PROFIL</h3>
+      <p>
+        Développeur informatique diplômé en 2024, passionné par la création de
+        sites web. J'aime résoudre des problèmes et travailler sur des
+        solutions innovantes. Fort de mon expérience, je maîtrise les langages
+        de programmation et les frameworks nécessaires. Je suis motivé par
+        l'opportunité de rejoindre votre équipe pour contribuer à des projets
+        passionnants et continuer à évoluer dans ma carrière de développeur.
+      </p>
+
+      <h3>FORMATION</h3>
+      <p class="formation-year">2018 - 2019</p>
+      <p class="formation-info-gray">Baccalauréat</p>
+      <p class="formation-year">2020 - 2022</p>
+      <p class="formation-info-gray">Faculté de Médecine, Tambov, Russie</p>
+      <p class="formation-year">2022 - 2024</p>
+      <p class="formation-info-gray">NTIC Rabat</p>
+      <p class="formation-info-black">
+        Technicien Spécialisé en Développement Digital, option Full Stack
+      </p>
+
+      <div class="experience">
+        <h3>EXPERIENCE PROFESSIONNELLE</h3>
+        <div class="job">
+          <h4>Développeur Full Stack</h4>
+          <p class="formation-info-gray">2020 - présent</p>
+          <p class="formation-info-black">Création de sites web</p>
+          <ul>
+            <li>
+              Développement de sites web dynamiques en Laravel avec
+              intégration de bases de données.
+            </li>
+            <li>
+              Développement front-end avec React et back-end avec Laravel.
+            </li>
+            <li>Gestion de bases de données SQL et NoSQL (MongoDB).</li>
+            <li>
+              Application de la méthode agile (Scrum) pour transformer les
+              besoins des clients en produits fonctionnels.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
